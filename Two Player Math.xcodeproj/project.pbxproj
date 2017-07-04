@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D191E2391F0AE487008DD796 /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D191E2381F0AE487008DD796 /* PlayerManager.m */; };
 		D1D303901F0AC09500BD25E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D3038F1F0AC09500BD25E5 /* main.m */; };
 		D1D303931F0AC09500BD25E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D303921F0AC09500BD25E5 /* AppDelegate.m */; };
 		D1D303961F0AC09500BD25E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D303951F0AC09500BD25E5 /* ViewController.m */; };
 		D1D303991F0AC09500BD25E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D303971F0AC09500BD25E5 /* Main.storyboard */; };
 		D1D3039B1F0AC09500BD25E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D3039A1F0AC09500BD25E5 /* Assets.xcassets */; };
 		D1D3039E1F0AC09500BD25E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D3039C1F0AC09500BD25E5 /* LaunchScreen.storyboard */; };
+		D1D303A71F0AC44700BD25E5 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D303A61F0AC44700BD25E5 /* GameModel.m */; };
+		D1D303AA1F0AC44D00BD25E5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D303A91F0AC44D00BD25E5 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D191E2371F0AE487008DD796 /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		D191E2381F0AE487008DD796 /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 		D1D3038B1F0AC09500BD25E5 /* Two Player Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Player Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D3038F1F0AC09500BD25E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1D303911F0AC09500BD25E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		D1D3039A1F0AC09500BD25E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1D3039D1F0AC09500BD25E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1D3039F1F0AC09500BD25E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D303A51F0AC44700BD25E5 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		D1D303A61F0AC44700BD25E5 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		D1D303A81F0AC44D00BD25E5 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D1D303A91F0AC44D00BD25E5 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				D1D303941F0AC09500BD25E5 /* ViewController.h */,
 				D1D303951F0AC09500BD25E5 /* ViewController.m */,
 				D1D303971F0AC09500BD25E5 /* Main.storyboard */,
+				D1D303A51F0AC44700BD25E5 /* GameModel.h */,
+				D1D303A61F0AC44700BD25E5 /* GameModel.m */,
+				D191E2371F0AE487008DD796 /* PlayerManager.h */,
+				D191E2381F0AE487008DD796 /* PlayerManager.m */,
+				D1D303A81F0AC44D00BD25E5 /* Player.h */,
+				D1D303A91F0AC44D00BD25E5 /* Player.m */,
 				D1D3039A1F0AC09500BD25E5 /* Assets.xcassets */,
 				D1D3039C1F0AC09500BD25E5 /* LaunchScreen.storyboard */,
 				D1D3039F1F0AC09500BD25E5 /* Info.plist */,
@@ -151,8 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D303961F0AC09500BD25E5 /* ViewController.m in Sources */,
+				D1D303A71F0AC44700BD25E5 /* GameModel.m in Sources */,
+				D191E2391F0AE487008DD796 /* PlayerManager.m in Sources */,
 				D1D303931F0AC09500BD25E5 /* AppDelegate.m in Sources */,
 				D1D303901F0AC09500BD25E5 /* main.m in Sources */,
+				D1D303AA1F0AC44D00BD25E5 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +327,7 @@
 				D1D303A41F0AC09500BD25E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
